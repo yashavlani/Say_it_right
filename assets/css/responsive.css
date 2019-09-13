@@ -1,0 +1,66 @@
+@media (max-width: 767px) {
+    html, body {
+        font-size: 10px;
+    }
+
+    .wrapper {
+        max-width: calc(100% - 20px);
+    }
+
+    .navbar {
+        display: block;
+        text-align: center;
+    }
+
+    .banner-text {
+        width: calc(100% - 20px);
+    }
+
+    .row {
+        display: block;
+        margin: auto;
+    }
+
+    .content-card .text-box {
+        width: 100%;
+    }
+
+    .content-card .card-img {
+        width: 60%;
+        margin: auto;
+    }
+
+    .content-card .card-img img {
+        transform: none;
+    }
+
+    .product-card {
+        width: 100%;
+    }
+
+    .col-50 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .col-25 {
+        width: 100%;
+    }
+
+    .settings-section .login-card .content .col-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .settings-section .login-card .content .col-right {
+        width: 100%;
+    }
+
+    .cart-modal .col-left {
+        width: 100%;
+    }
+
+    .cart-modal .col-right {
+        width: 100%;
+    }
+}
